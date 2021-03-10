@@ -10,6 +10,8 @@
 
 #  Helper Functions, unused by CSM - needs to be revised to be tunable
 ## HF#1 Random hex color returned as "#RRGGBB".
+if(0){
+
 randHclr <- function() {
   m=255;r=g=b=0;
   r <- sample(0:m, 1, replace=TRUE);
@@ -71,8 +73,9 @@ pVoronoiD <- function(ns, fn="", ttl="",mt=1) {
 #pVoronoiD(150)          ## Euclidean metric
 
 pVoronoiD(100)
+}
 
-stop()
+#stop()
 
 library(e1071)
 library(gganimate)
